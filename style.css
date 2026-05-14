@@ -1,0 +1,145 @@
+* {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+header {
+  max-width: 1140px;
+  height: 140px;
+  margin: auto;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+header .head1 {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .head1 .ph1 {
+  font-weight: 500;
+  color: #686868;
+}
+header .head1 .divh2 {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+header .head1 .divh2 .eye {
+  width: 20px;
+  height: 20px;
+}
+header .head1 .divh2 p {
+  font-size: 18px;
+  font-weight: 500;
+  color: #686868;
+}
+header .head1 .divh1 {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+header .head1 .divh1 h3 {
+  font-size: 22px;
+  font-weight: 500;
+}
+header .head1 .divh1 button {
+  width: 196px;
+  height: 36px;
+  border-radius: 18px;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to bottom, #3BB96D, #279A59);
+  color: white;
+  font-size: 14px;
+}
+header .head2 {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .head2 img {
+  width: 144px;
+  height: 38px;
+}
+header .head2 p {
+  font-size: 18px;
+  color: #0D233B;
+}
+header .head2 .menu {
+  display: none;
+}
+header .head3 {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  font-size: 12px;
+  color: #0D233B;
+}
+header .head3 p {
+  font-weight: 400;
+}
+header .head3 .samp {
+  width: 12px;
+  height: 12px;
+}
+header .head3 h4 {
+  font-weight: 600;
+}
+
+@media (max-width: 510px) {
+  .head1 {
+    display: none !important;
+  }
+  .head2 p {
+    display: none;
+  }
+  .head2 .menu {
+    display: block !important;
+    width: 40px;
+    height: 40px;
+  }
+  header {
+    height: 80px;
+  }
+  .sec1 {
+    width: 90%;
+  }
+  .sec1 .Cont {
+    flex-direction: column;
+    row-gap: 30px;
+  }
+  .sec1 .Cont .MRT1 {
+    max-height: 624px;
+    padding-bottom: 220px;
+  }
+  .sec1 .Cont .MRT1 h2, .sec1 .Cont .MRT1 p {
+    width: 100% !important;
+  }
+  .sec1 .Cont .MRT1 .img {
+    bottom: 0;
+    right: 0;
+  }
+  .sec1 .Cont .MRT2 {
+    max-height: 624px;
+    padding-bottom: 220px;
+  }
+  .sec1 .Cont .MRT2 h2, .sec1 .Cont .MRT2 p {
+    width: 100% !important;
+  }
+  .sec1 .Cont .MRT2 .img {
+    bottom: 0;
+    right: 0;
+  }
+  .sec2 {
+    width: 90%;
+  }
+  .sec2 .Cont {
+    flex-wrap: wrap;
+  }
+}/*# sourceMappingURL=style.css.map */
