@@ -214,6 +214,46 @@ header .head3 h4 {
   right: 5px;
 }
 
+.sec2 {
+  max-width: 1200px;
+  margin: auto;
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 40px;
+}
+.sec2 h1 {
+  font-size: 40px;
+  font-weight: 700;
+  color: #0D233B;
+}
+.sec2 .Cont {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+.sec2 .Cont .box {
+  max-width: 362px;
+  height: 178px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.1490196078);
+  padding: 40px 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.sec2 .Cont .box img {
+  width: 80px;
+  height: 80px;
+}
+.sec2 .Cont .box p {
+  font-size: 18px;
+  font-weight: 500;
+  color: #434343;
+}
+
 @media (max-width: 510px) {
   .head1 {
     display: none !important;

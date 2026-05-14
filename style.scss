@@ -198,6 +198,54 @@ header
         }
     }
 }
+@mixin boxes{
+    max-width: 362px;
+    height: 178px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 30px #00000026;
+    padding: 40px 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    img
+    {
+        width: 80px;
+        height: 80px;
+    }
+    p
+    {
+        font-size: 18px;
+        font-weight: 500;
+        color: #434343;
+    }
+}
+.sec2
+{
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+    h1
+    {
+        font-size: 40px;
+        font-weight: 700;
+        color: #0D233B;
+    }
+    .Cont
+    {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 20px;
+        .box
+        {
+            @include boxes()
+        }
+    }
+}
 
 
 
