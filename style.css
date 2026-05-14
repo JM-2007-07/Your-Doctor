@@ -389,6 +389,67 @@ header .head3 h4 {
   height: 391px;
 }
 
+.sec6 {
+  width: 1120px;
+  height: 299px;
+  margin: auto;
+  margin-top: 150px;
+  border-radius: 60px;
+  background-color: #272727;
+  padding: 30px 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: white;
+  position: relative;
+}
+.sec6 h1 {
+  font-size: 40px;
+  font-weight: 700;
+}
+.sec6 button {
+  width: 270px;
+  height: 44px;
+  border-radius: 18px;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to bottom, #3BB96D, #279A59);
+  color: white;
+  font-size: 14px;
+}
+.sec6 .form {
+  display: flex;
+  gap: 20px;
+}
+.sec6 .form .form1 {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+.sec6 .form .form1 h4 {
+  font-weight: 600px;
+}
+.sec6 .form .form1 input {
+  width: 240px;
+  height: 14px;
+  border: none;
+  border-radius: 30px;
+  background-color: #F1F5F8;
+  padding: 15px;
+}
+.sec6 .pConf {
+  font-size: 14px;
+  font-weight: 500;
+}
+.sec6 .img {
+  height: 449px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
 @media (max-width: 510px) {
   .head1 {
     display: none !important;
@@ -477,5 +538,20 @@ header .head3 h4 {
   .sec5 .license .imgl .imgl1 {
     width: 170px;
     height: 250.46px;
+  }
+  .sec6 h1 {
+    font-size: 36px;
+  }
+  .sec6 {
+    max-width: 288px;
+    height: 520px;
+    padding: 30px 40px;
+  }
+  .sec6 .form {
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  .sec6 .img {
+    display: none;
   }
 }/*# sourceMappingURL=style.css.map */
