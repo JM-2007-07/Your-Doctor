@@ -108,6 +108,96 @@ header
         }
     }
 }
+    @mixin conts($a, $b) {
+        max-width: 560px;
+        height: 333px;
+        border-radius: 5px;
+        background-image: linear-gradient($a, $b);
+        color: white;
+        position: relative;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        h2
+        {
+            width: 60%;
+            font-size: 30px;
+            font-weight: 700;
+        }
+        p
+        {
+            width: 60%;
+        }
+        h3
+        {
+            font-size: 18px;
+            font-weight: 700;
+        }
+        button
+        {
+            width: 178px;
+            height: 38px;
+            border-radius: 30px;
+            border: none;
+            display: flex;
+            gap: 10px;
+            align-items: center;
+            justify-content: center;
+            background-color: white;
+            color: #279A59;
+            .pBtn
+            {
+                font-size: 14px;
+                font-weight: 700;
+            }
+            .samp
+            {
+                width: 18px;
+                height: 18px;
+            }
+        }
+            .img
+            {
+                max-width: 295px;
+                max-height: 262px;
+                position: absolute;
+                bottom: 5px;
+                right: 5px;
+            }   
+
+    }
+
+.sec1
+{
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+    h1
+    {
+        font-size: 40px;
+        font-weight: 700;
+        color: #0D233B;
+    }
+    .Cont
+    {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        gap: 30px;
+        .MRT1
+        {
+            @include conts(#3BB96D, #279A59)
+        }
+        .MRT2
+        {
+            @include conts(#27C8DA, #24BFD0)
+        }
+    }
+}
 
 
 

@@ -92,6 +92,128 @@ header .head3 h4 {
   font-weight: 600;
 }
 
+.sec1 {
+  max-width: 1200px;
+  margin: auto;
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 40px;
+}
+.sec1 h1 {
+  font-size: 40px;
+  font-weight: 700;
+  color: #0D233B;
+}
+.sec1 .Cont {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+.sec1 .Cont .MRT1 {
+  max-width: 560px;
+  height: 333px;
+  border-radius: 5px;
+  background-image: linear-gradient(#3BB96D, #279A59);
+  color: white;
+  position: relative;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.sec1 .Cont .MRT1 h2 {
+  width: 60%;
+  font-size: 30px;
+  font-weight: 700;
+}
+.sec1 .Cont .MRT1 p {
+  width: 60%;
+}
+.sec1 .Cont .MRT1 h3 {
+  font-size: 18px;
+  font-weight: 700;
+}
+.sec1 .Cont .MRT1 button {
+  width: 178px;
+  height: 38px;
+  border-radius: 30px;
+  border: none;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  color: #279A59;
+}
+.sec1 .Cont .MRT1 button .pBtn {
+  font-size: 14px;
+  font-weight: 700;
+}
+.sec1 .Cont .MRT1 button .samp {
+  width: 18px;
+  height: 18px;
+}
+.sec1 .Cont .MRT1 .img {
+  max-width: 295px;
+  max-height: 262px;
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+}
+.sec1 .Cont .MRT2 {
+  max-width: 560px;
+  height: 333px;
+  border-radius: 5px;
+  background-image: linear-gradient(#27C8DA, #24BFD0);
+  color: white;
+  position: relative;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.sec1 .Cont .MRT2 h2 {
+  width: 60%;
+  font-size: 30px;
+  font-weight: 700;
+}
+.sec1 .Cont .MRT2 p {
+  width: 60%;
+}
+.sec1 .Cont .MRT2 h3 {
+  font-size: 18px;
+  font-weight: 700;
+}
+.sec1 .Cont .MRT2 button {
+  width: 178px;
+  height: 38px;
+  border-radius: 30px;
+  border: none;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  color: #279A59;
+}
+.sec1 .Cont .MRT2 button .pBtn {
+  font-size: 14px;
+  font-weight: 700;
+}
+.sec1 .Cont .MRT2 button .samp {
+  width: 18px;
+  height: 18px;
+}
+.sec1 .Cont .MRT2 .img {
+  max-width: 295px;
+  max-height: 262px;
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+}
+
 @media (max-width: 510px) {
   .head1 {
     display: none !important;
