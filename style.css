@@ -306,6 +306,57 @@ header .head3 h4 {
   color: #0D233B;
 }
 
+.sec4 {
+  width: 100%;
+  height: 504px;
+  margin-top: 150px;
+  padding-top: 80px;
+  background-color: #272727;
+  display: flex;
+  justify-content: center;
+}
+.sec4 .text {
+  width: 1200px;
+  height: 424px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: start;
+  color: white;
+  position: relative;
+}
+.sec4 .text h1 {
+  font-size: 30px;
+  font-weight: 700;
+}
+.sec4 .text .parts {
+  width: 100%;
+  display: flex;
+  gap: 20px;
+}
+.sec4 .text .parts .part1 {
+  display: flex;
+  flex-direction: column;
+  row-gap: 7px;
+}
+.sec4 .text .parts .part1 p {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.sec4 .text .parts .part1 p .sm {
+  font-size: 24px;
+  font-weight: 1000;
+  color: #279A59;
+}
+.sec4 .text img {
+  position: absolute;
+  width: 486px;
+  height: 644px;
+  bottom: -80px;
+  right: 0;
+}
+
 @media (max-width: 510px) {
   .head1 {
     display: none !important;
@@ -362,5 +413,22 @@ header .head3 h4 {
   .sec3 .Cont {
     flex-wrap: wrap;
     justify-content: center;
+  }
+  .sec4 {
+    width: 100%;
+    height: 900px;
+  }
+  .sec4 .text {
+    width: 90%;
+    gap: 30px;
+  }
+  .sec4 .text h1 {
+    font-size: 26px;
+  }
+  .sec4 .text .parts {
+    flex-direction: column;
+  }
+  .sec4 .text .img {
+    display: none;
   }
 }/*# sourceMappingURL=style.css.map */
